@@ -19,7 +19,8 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #e02041;
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #header img {
@@ -154,7 +155,7 @@
 
 #fonts {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 30px;
