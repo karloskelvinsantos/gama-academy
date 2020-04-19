@@ -156,9 +156,13 @@
 #fonts {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.fonts {
+    margin-right: 20px;
 }
 
 #fonts img {
